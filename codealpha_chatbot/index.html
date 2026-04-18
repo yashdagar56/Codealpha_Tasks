@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Nexus Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Premium background elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="glass-orb"></div>
+
+    <main class="chat-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <div class="bot-profile">
+                <div class="avatar-ring">
+                    <img src="https://api.dicebear.com/7.x/bottts/svg?seed=CodeAlpha&backgroundColor=1e293b" alt="Bot Avatar" class="avatar">
+                    <div class="status-dot"></div>
+                </div>
+                <div class="bot-info">
+                    <h1>Nexus AI</h1>
+                    <p>Powered by CodeAlpha Rules</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="btn-clear" title="Clear Chat History"><i class="fas fa-trash-alt"></i></button>
+            </div>
+        </header>
+
+        <!-- Message Area -->
+        <div class="chat-box" id="chat-box">
+            <!-- Messages inject here -->
+            <div class="message bot-message">
+                <div class="message-bubble">
+                    Hello! I am a simple rule-based chatbot designed for CodeAlpha Task 4. Try saying "hello", "how are you", or ask me to "tell me a joke". Type "bye" to end our chat!
+                </div>
+                <div class="timestamp">Just now • System</div>
+            </div>
+        </div>
+
+        <!-- Typing Indicator (Hidden by default) -->
+        <div class="typing-indicator hide" id="typing-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
+            <button id="btn-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
