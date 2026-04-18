@@ -1,6 +1,14 @@
-# 🎮 Text-Based Hangman
+# 🎮 Text-Based & Neon Web Hangman
 
-Welcome to my Python Hangman game! This is a simple, beginner-friendly take on the classic word-guessing game. I built this entirely using core Python concepts—no extra libraries or complex frameworks, just pure logic, loops, and lists!
+🚀 **Play it Live Now:** [Neon Hangman Protocol](https://yashdagar56.github.io/Codealpha_Tasks/codealpha_hangman/index.html)
+
+Welcome to my Hangman game! Originally built as a simple, beginner-friendly Python terminal game, it has now been expanded to include a **visually stunning, premium web-based version** featuring a cybernetic neon aesthetic, interactive elements, and glass-morphism panels.
+
+## The Web Version (Neon Protocol)
+Experience the ultimate interactive version straight from your browser. Click the [Live Demo Link](https://yashdagar56.github.io/Codealpha_Tasks/codealpha_hangman/index.html) to play it immediately—no download required!
+
+## The Python Version
+I originally built this entirely using core Python concepts—no extra libraries or complex frameworks, just pure logic, loops, and lists!
 
 ## How It Works
 When you run the game, it randomly selects one of five hidden words. Your goal is to try and guess the word one letter at a time.
